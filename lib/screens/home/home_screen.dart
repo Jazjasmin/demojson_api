@@ -1,10 +1,10 @@
-import 'package:demo_json_pjct/home/detail_page.dart';
-import 'package:demo_json_pjct/product_model/product_model.dart';
+import 'package:demo_json_pjct/bloc/productblocmodel/productblocmodel_bloc.dart';
+import 'package:demo_json_pjct/screens/home/detail_page.dart';
+import 'package:demo_json_pjct/models/product_model/product_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:demo_json_pjct/productblocmodel/productblocmodel_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ScreenHome extends StatelessWidget {

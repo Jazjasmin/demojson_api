@@ -1,8 +1,8 @@
 import 'package:demo_json_pjct/const_value/debounce.dart';
 import 'package:demo_json_pjct/const_value/string.dart';
-import 'package:demo_json_pjct/home/home_screen.dart';
-import 'package:demo_json_pjct/home/product_search_page.dart';
-import 'package:demo_json_pjct/productblocmodel/productblocmodel_bloc.dart';
+import 'package:demo_json_pjct/screens/home/home_screen.dart';
+import 'package:demo_json_pjct/screens/home/product_search_page.dart';
+import 'package:demo_json_pjct/bloc/productblocmodel/productblocmodel_bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

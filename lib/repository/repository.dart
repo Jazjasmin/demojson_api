@@ -1,4 +1,4 @@
-import 'package:demo_json_pjct/product_model/product_model.dart';
+import 'package:demo_json_pjct/models/product_model/product_model.dart';
 import 'package:dio/dio.dart';
 import 'package:demo_json_pjct/api_key/api_end_point.dart';
 import 'package:demo_json_pjct/const_value/failure/main_failure.dart';

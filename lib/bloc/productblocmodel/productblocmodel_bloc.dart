@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:demo_json_pjct/product_model/product_model.dart';
+import 'package:demo_json_pjct/models/product_model/product_model.dart';
 import 'package:meta/meta.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:dartz/dartz.dart';

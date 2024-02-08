@@ -1,7 +1,7 @@
-import 'package:demo_json_pjct/productblocmodel/productblocmodel_bloc.dart';
+import 'package:demo_json_pjct/bloc/productblocmodel/productblocmodel_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:demo_json_pjct/const_value/di/injectable.dart';
-import 'package:demo_json_pjct/widget/main_page.dart';
+import 'package:demo_json_pjct/screens/widget/main_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 Future<void> main() async {

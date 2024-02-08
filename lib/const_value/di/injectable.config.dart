@@ -8,7 +8,7 @@
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 
-import '../../productblocmodel/productblocmodel_bloc.dart' as _i5;
+import '../../bloc/productblocmodel/productblocmodel_bloc.dart' as _i5;
 import '../../repository/repository.dart' as _i4;
 import '../../services/service.dart'
     as _i3; // ignore_for_file: unnecessary_lambdas

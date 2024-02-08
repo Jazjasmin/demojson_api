@@ -1,5 +1,5 @@
 import 'package:demo_json_pjct/const_value/string.dart';
-import 'package:demo_json_pjct/productblocmodel/productblocmodel_bloc.dart';
+import 'package:demo_json_pjct/bloc/productblocmodel/productblocmodel_bloc.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -24,7 +24,9 @@ class SearchResult extends StatelessWidget {
             shrinkWrap: true,
             children: List.generate(state.searchResultList.length, (index) {
               final product = state.searchResultList[index];
-              return MainCard(imageUrl: product.thumbnail.toString(),title: product.title.toString(),);
+              return MainCard(
+                imageUrl: product.thumbnail ?? "https://cdn.dummyjson.com/product-images/30/1.jpg",
+               title: product.title.toString(),);
             }),
           );
         }))

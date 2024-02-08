@@ -1,10 +1,10 @@
-import 'package:demo_json_pjct/home/home.dart';
+import 'package:demo_json_pjct/screens/home/home.dart';
 import 'package:flutter/material.dart';
-import 'package:demo_json_pjct/category/category.dart';
+import 'package:demo_json_pjct/screens/category/category.dart';
 import 'package:demo_json_pjct/const_value/string.dart';
-import 'package:demo_json_pjct/favoutite/favourite.dart';
-import 'package:demo_json_pjct/home/home_screen.dart';
-import 'package:demo_json_pjct/widget/bottom_nav.dart';
+import 'package:demo_json_pjct/screens/favoutite/favourite.dart';
+import 'package:demo_json_pjct/screens/home/home_screen.dart';
+import 'package:demo_json_pjct/screens/widget/bottom_nav.dart';
 
 class MainPage extends StatelessWidget {
    MainPage({ Key? key }) : super(key: key);
